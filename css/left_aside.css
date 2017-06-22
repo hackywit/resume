@@ -1,3 +1,40 @@
 .qui-asides {
-    
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 400px;
+    width: 200px;
+}
+
+.qui-aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    overflow-y: scroll; /*垂直方向出现溢出则出现滚动条*/
+    background-color: #2d3741;
+}
+
+.qui-asideNav {
+    /*上内边距为80px，左右内边距为10px,下内边距为10px*/
+    padding: 80px 10px 10px;
+}
+
+.qui-asideNav li {
+    border-top: 1px solid #232d34;
+    background-color: #36424b;
+}
+
+.qui-asideNav a {
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ced1d5;
+}
+
+.qui-asideNav a:hover {
+    color: white;
+    background-color: #2bab79;
 }
